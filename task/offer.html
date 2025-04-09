@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Provide a brief description of your website or page here. For example, 'Discover the latest technology news, tips, and product reviews to keep you updated.'">
+
+      <title>Citron</title>
+
+
+      <!-- Bootstrap 4 CSS (Already in your path) -->
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Font Awesome for icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- swiper -->
+      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+      <link rel="icon" href="img/favicon-astral.png" type="img/favicon-astral.png">
+   </head>
+   <body>
+      <div class="floating-contact-buttons">
+  <a href="tel:+1234567890" class="call-btn" title="Call">
+    <i class="fa-solid fa-phone" alt="Call"></i>
+  </a>
+  <a href="https://wa.me/1234567890" class="whatsapp-btn" title="WhatsApp">
+    <i class="fa-brands fa-square-whatsapp" alt="WhatsApp"></i>
+  </a>
+</div>
+
+      <!-- Header Section with Navbar -->
+      <div class="container-fluid">
+         <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="index.html">
+            <img src="images/logos.png" alt="Logo" class="logo">
+            </a>
+            <!-- Toggler for mobile -->
+            <button class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation" onclick="toggleMenu()">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <!-- Regular Navbar Items for Desktop -->
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Holiday</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Visa</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">City Tours</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="offer.html">Offers</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Blog</a>
+                  </li>
+               </ul>
+            </div>
+            <!-- Get In Touch button and Search icon, visible on desktop -->
+            <div class=" btn_hdr d-none d-lg-block">
+               <button>Contact</button>         
+            </div>
+          
+         </nav>
+      </div>
+      <!-- Mobile Menu (Initially Hidden) -->
+      <div class="mobile-menu" id="mobileMenu">
+         <button class="close-menu" onclick="closeMenu()">×</button> <!-- Close button -->
+         <ul>
+             <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Holiday</a></li>
+            <li><a href="#">Visa</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">City Tours</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="offer.html">Offer</a></li>
+            <li><a href="#">Contact</a></li>
+         </ul>
+      </div>
+      <!-- Backdrop for Mobile Menu (Dark Overlay) -->
+      <div class="mobile-menu-backdrop" id="mobileBackdrop" onclick="closeMenu()"></div>
+      <!-- Slider -->
+
+
+
+
+
+
+      <!-- page-title -->
+ <!-- page-title -->
+        <section class="page-title pd-15">
+            <div class="bg-layer" style="background-image: url(images/offer.jpeg);"></div>
+            
+            <div class="container">
+                <div class="content-box">
+                    <h1>Blog</h1>
+                   
+                </div>
+            </div>
+        </section>
+
+        <div class="container sec-pg-tl pd-15">
+          <span>Home. </span><span>Holiday. </span><span class="clr-tl">European Extravaganza</span>
+        </div>
+
+        <!-- page-title end -->
+
+        <!-- border -->
+<div class="container-fluid border-col"></div>
+      <!-- border end -->
+
+
+
+
+      <!-- offer page start -->
+
+      <!-- special offer -->
+      <div class="container pd-15">
+        <div class="row">
+          <div class="col-lg-12 col-xs-12 offer-container">
+            
+            <div class="ribbon">
+              <span class="ribbon-special">SPECIAL</span>
+              <span class="ribbon-offer">OFFER</span>
+            </div>
+            
+            <div class="offer-details">
+              <div class="offer-title">
+                European Elegance: A Journey Through Paris, Amsterdam, Frankfurt & Zurich
+              </div>
+              <div class="offer-meta">
+                <div><i class="fas fa-map-marker-alt"></i> Western Europe</div>
+                 
+                <span class="stars">
+                   
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    
+                </span>
+                <span class="rating">4.9 from 1400+ Reviewers</span>
+              </div>
+            </div>
+
+         </div>
+       </div>
+      </div>
+
+      <!-- content strt -->
+      <div class="container pd-15">
+        <div class="row">
+
+          <div class="col-lg-6 col-xs-12 off-content-img">
+            <img src="images/offabt.jpeg">
+
+            <div class="destintn-data">
+            <span><i class="fa-solid fa-house"></i> Hotel & Destination</span> <span><i class="fa-solid fa-clock"></i> 10 Days & 9 Nights</span> 
+            <span><i class="fa-solid fa-earth-americas"></i> 4 Countries</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-xs-12 off-content-descr">
+            <h3>9 Nights in Europe:From Paris to Zurich</h3>
+            <h5> <i class="fa-solid fa-clock"></i>  Travel Dates: 29 Nov - 02 Dec 2025</h5>
+            <p>Embark on a captivating 10-day journey through the heart of Europe, where timeless elegance meets modern charm. Begin in the romantic streets of Paris, the City of Light, where iconic landmarks like the Eiffel Tower and Louvre await. Next, explore the vibrant canals and artistic heritage of Amsterdam, a city brimming with culture and history. Continue to Frankfurt, a dynamic blend of towering skyscrapers and medieval old-town charm. Conclude your adventure in Zurich, Switzerland’s financial hub, surrounded by stunning alpine landscapes and pristine lakes. This package offers the perfect blend of history, culture, and scenic beauty, creating memories that will last a lifetime.</p>
+          </div>
+
+        </div>
+        
+      </div>
+      <!-- content end -->
+
+
+
+      <!-- package detail start -->
+
+      <div class="container pd-15 package-sec-col">
+        <div class="row">
+
+          <!-- price -->
+          <div class="col-lg-6 col-xs-12">
+            <p>Price</p>
+            <div class="price-tag-sec">
+             <del class="del-pr"> 7,456 AED </del> <span class="pr-tag-aed"> 5,356 AED </span> <span>per person</span>
+            </div>
+              <div class="flight-container">
+  <div class="flight-header">
+    <i class="fas fa-plane-departure"></i>
+    <span>Flight Details</span>
+    <i class="fas fa-chevron-down toggle-icon"></i>
+  </div>
+
+  <div class="flight-boxes">
+    <!-- Departure Flight -->
+    <div class="flight-box">
+      <h4 class="flight-label">Departure Flight</h4>
+      <div class="flight-card">
+        <div class="airline-info">
+          <div>
+            <strong>Emirates Airlines</strong><br>
+            <small>Economy Class<br>A380 EK072</small>
+          </div>
+          <img src="images/emirates.png" alt="Emirates Logo">
+        </div>
+        <div class="flight-route">
+          <div class="location">
+            <div>Dubai, DXB</div>
+            <div class="code">DXB</div>
+          </div>
+          <div class="duration">
+            <div class="line"></div>
+            <i class="fas fa-plane"></i>
+            <div class="line"></div>
+            <div><strong class="ft-sz">6 hrs 35 mins</strong></div>
+          </div>
+          <div class="location">
+            <div>Paris, CDG</div>
+            <div class="code">CDG</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Return Flight -->
+    <div class="flight-box">
+      <h4 class="flight-label">Return Flight</h4>
+      <div class="flight-card">
+        <div class="airline-info">
+          <div>
+            <strong>Emirates Airlines</strong><br>
+            <small>Economy Class<br>A380 EK072</small>
+          </div>
+          <img src="images/emirates.png" alt="Emirates Logo">
+        </div>
+        <div class="flight-route">
+          <div class="location">
+            <div>Paris, CDG</div>
+            <div class="code">CDG</div>
+          </div>
+          <div class="duration">
+            <div class="line"></div>
+            <i class="fas fa-plane"></i>
+            <div class="line"></div>
+            <div><strong class="ft-sz">6 hrs 35 mins</strong></div>
+          </div>
+          <div class="location">
+            <div>Dubai, DXB</div>
+            <div class="code">DXB</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ </div>
+
+          <!-- itinerary -->
+         <div class="col-lg-6 itinerary-cl">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<div class="itinerary-box">
+  <div class="itinerary-header" onclick="toggleItinerary(this)">
+    <span><i class="fas fa-map-marker-alt"></i> Itinerary</span>
+    <i class="fas fa-chevron-down toggle-icon"></i>
+  </div>
+
+  <div class="itinerary-content">
+    <!-- Day 1 -->
+    <div class="day-box">
+      <h4 class="day-title">Day 1</h4>
+      <div class="timeline-box">
+        <div class="timeline-item active">
+          <p><strong>Arrival in Paris</strong></p>
+          <p>Arrival at <strong>Paris Charles de Gaulle Airport</strong></p>
+        </div>
+        <div class="timeline-item">
+          <p>Transfer to your hotel for check-in (on your own)</p>
+        </div>
+        <div class="timeline-item">
+          <p>Free time to relax and explore nearby attractions at your own pace</p>
+        </div>
+        <div class="timeline-item">
+          <p>Overnight in Paris</p>
+        </div>
+        <div class="note">
+          <p><strong>Please note:</strong> The Tour Manager will meet you at the hotel.</p>
+          <p><strong>Standard check-in time</strong> is 1500 hrs.</p>
+          <p><strong>Meals:</strong> Packed Indian dinner delivered to the hotel.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Day 2 -->
+    <div class="day-box">
+      <h4 class="day-title">Day 2:</h4>
+      <div class="timeline-box">
+        <div class="timeline-item active">
+          <p><strong>Optional Disneyland Tour</strong></p>
+        </div>
+        <div class="timeline-item active">
+          <p>Breakfast at the hotel</p>
+        </div>
+        <div class="timeline-item">
+          <p>Optional visit to <strong>Disneyland Paris</strong> (for those who choose the tour)</p>
+          <ul>
+            <li><strong>Explore Disneyland Park or Walt Disney Studios Park</strong></li>
+            <li><strong>Enjoy thrilling rides, entertainment, and family fun</strong></li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <p><strong>For those not visiting Disneyland:</strong></p>
+          <ul>
+            <li>Free time to explore Paris independently</li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <p>Dinner at an Indian restaurant</p>
+        </div>
+        <div class="timeline-item">
+          <p>Overnight in Paris</p>
+        </div>
+        <div class="note">
+          <p><strong>Please note:</strong> Packed dinner provided for guests not opting for Disneyland.</p>
+          <p><strong>Meals Included:</strong> Continental Breakfast and Indian Dinner.</p>
+        </div>
+      </div>
+    </div>
+  
+       <!-- Day 3 -->
+    <div class="day-box">
+      <h4 class="day-title">Day 3: </h4>
+      <div class="timeline-box">
+        <div class="timeline-item active">
+          <p><strong>Paris Guided City Tour – Eiffel Tower Visit & River Seine Cruise</strong></p>
+        </div>
+        <div class="timeline-item active">
+          <p>Breakfast at the hotel</p>
+        </div>
+        <div class="timeline-item">
+          <p>Full-day guided tour of Paris</p>
+          <ul>
+            <li><strong>Place de la Concorde</strong></li>
+            <li><strong>Arc de Triomphe</strong></li>
+             <li><strong>Notre Dame de Paris</strong></li>
+              <li><strong>Louvre Pyramid</strong></li>
+               <li><strong>Musée d’Orsay</strong></li>
+                <li><strong>Palais Garnier Opera</strong></li>
+                 <li><strong>Champs-Élysées</strong></li>
+                 <li><strong>Alexander Bridge</strong></li>
+                 <li><strong>Montmartre</strong></li>
+                 <li><strong>Concorde Square</strong></li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <p>Visit to the 2nd Level of the Eiffel Tower for panoramic views</p>
+         
+        </div>
+        <div class="timeline-item">
+          <p>Dinner at an Indian restaurant</p>
+        </div>
+        <div class="timeline-item">
+          <p>Overnight in Paris</p>
+        </div>
+        <div class="note">
+        
+          <p><strong>Meals Included:</strong> Continental Breakfast and Indian Dinner.</p>
+        </div>
+      </div>
+    </div>
+       <!-- Day 4 -->
+    <div class="day-box">
+      <h4 class="day-title">Day 4:</h4>
+      <div class="timeline-box">
+         <div class="timeline-item active">
+          <p><strong>Brussels (Belgium) – Amsterdam (Netherland)</strong></p>
+        </div>
+        <div class="timeline-item active">
+          <p>Breakfast at the hotel</p>
+        </div>
+        <div class="timeline-item active">
+          <p>Drive to Amsterdam via Brussels</p>
+        </div>
+
+
+
+        
+
+
+
+
+
+
+
+
+        <div class="timeline-item">
+          <p>Enjoy a serene sightseeing tour in Brussels of</p>
+          <ul>
+            <li><strong>Grand Place and its famous guild houses</strong></li>
+            <li><strong>The City Museum</strong></li>
+            <li><strong>Town Hall</strong></li>
+            <li><strong>Royal Palace</strong></li>
+            <li><strong>Manneken Pis</strong></li>
+            <li><strong>Royal Park</strong></li>
+            <li><strong>Palace of Justice</strong></li>
+            <li><strong>Museum of Fine Arts</strong></li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <p>Photo stop at the <strong>Atomium</strong></p>
+         
+        </div>
+        <div class="timeline-item">
+          <p>Proceed to<strong> Amsterdam</strong> </p>
+        </div>
+         <div class="timeline-item">
+          <p>Enjoy a canal cruise in a glass-topped boat, offering stunning views of the city’s colorful buildings,
+lush trees, and bustling cyclists.</p>
+        </div>
+         <div class="timeline-item">
+          <p>Dinner at an Indian restaurant</p>
+        </div>
+         <div class="timeline-item">
+          <p>Transfer to your hotel for check-in in Amsterdam</p>
+        </div>
+        <div class="timeline-item">
+          <p>Overnight in Paris</p>
+        </div>
+        <div class="note">
+         
+          <p><strong>Meals Included:</strong> Continental Breakfast and Indian Dinner.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+
+        </div>
+      </div>
+
+      <!-- package detail end -->
+
+
+
+
+
+
+
+
+<section class="">
+
+   <div class="container faq-container">
+       <div class="row">
+               <div class="col-lg-12">
+                  <div class="title_sec">
+                        <h4>FAQ</h4>
+                        <h5>Frequently asked questions</h5>
+                  </div>
+               </div>
+            </div>
+
+
+<div class="faq-item">
+  <button class="faq-question">
+   What is the best time to visit Dubai?
+    <span class="arrow">
+      <i class="fas fa-chevron-down icon-down"></i>
+      <i class="fas fa-chevron-up icon-up"></i>
+    </span>
+  </button>
+  <div class="faq-answer">
+    The best time to visit Dubai is from November to March when the weather is pleasant and perfect for outdoor activities.
+  </div>
+</div>
+
+
+
+  <div class="faq-item">
+  <button class="faq-question">
+    What is the local currency, and where can I exchange money?
+    <span class="arrow">
+      <i class="fas fa-chevron-down icon-down"></i>
+      <i class="fas fa-chevron-up icon-up"></i>
+    </span>
+  </button>
+  <div class="faq-answer">
+    The best time to visit Dubai is from November to March when the weather is pleasant and perfect for outdoor activities.
+  </div>
+</div>
+
+
+  <div class="faq-item">
+    <button class="faq-question">
+     What is the main language spoken, and is English widely understood?
+      <span class="arrow">
+      <i class="fas fa-chevron-down icon-down"></i>
+      <i class="fas fa-chevron-up icon-up"></i>
+    </span>
+    </button>
+    <div class="faq-answer">
+      Arabic is the official language, but English is widely spoken and understood across Dubai.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      What are the local customs or cultural etiquettes to be aware of?
+      <span class="arrow">
+      <i class="fas fa-chevron-down icon-down"></i>
+      <i class="fas fa-chevron-up icon-up"></i>
+    </span>
+    </button>
+    <div class="faq-answer">
+      Dress modestly, avoid public displays of affection, and respect Islamic traditions and prayer times.
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+     
+
+
+
+      
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <footer>
+         <section class="footer_sec">
+            <div class="container ">
+               <div class="row">
+                  <div class="col-lg-5 ">
+                    
+                     <p class="footer-abt">We’re on a journey to transform ordinary trips into extraordinary ones. We are your guide, bringing you personal experiences. Wherever your travels take you, we’ll show you the unique and unmissable things to do in your destination.</p>
+                  </div>
+                 
+                  <div class="col-lg-7 ">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-lg-3 col-6 featured">
+                              <h5>Explore</h5>
+                              <ul>
+                                 <li><a href="">Home</a></li>
+                                 <li><a href="">About</a></li>
+                                 <li><a href="">Service</a></li>
+                                 <li><a href="">Blogs</a></li>
+                                 <li><a href="">offer</a></li>
+                                 <li><a href="">contact</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-lg-5 col-6 featured">
+                              <h5>Contact</h5>
+                              <div class="ft-ct">
+                                 <p>Zaina Mohebi Plaza Building Near Burjuman Metro<br>
+                                 Station
+                                 <br>Bur Dubai, Dubai, UAE. PO Box No: 181425</p> 
+                              </div>
+                               
+                                 <div class="ft-ct">
+
+                                   <p>Telephone:</p> 
+                                  <a href="tel:+44 114 404 0307">+44 114 404 0307</a>  
+                                 </div>
+                                 <div class="ft-ct">
+                                    <p>E-Mail:</p>
+                                    <a href="E-Mail:reception@citrontourism.com">reception@citrontourism.com</a>
+                                 </div>
+                                 
+                             
+                           </div>
+                           
+                           <div class="col-lg-4 col-6 pay-ft">
+                             
+                              <p>Pay any way you choose, no matter<br>
+Whether cash or an international payment card ,<br> we support all of those
+payment options.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="container">
+                  <div class="row bottom_footer">
+                     <div class="col-lg-4 ">
+                        <div class="social-icons">
+                         <span>Get Social:</span>  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                           <a href=""><i class="fa-brands fa-instagram"></i></a>
+                           <a href=""><i class="fa-brands fa-youtube"></i></a>
+                           
+                        </div>
+                     </div>
+
+                     <div class="col-lg-4 copy-cmpny">
+                       <p>2024 Citron Tourism, All right resreved.</p>
+                     </div>
+                      <div class="col-lg-4 privcy-col">
+                        <p> Terms of use/Privacy policy.</p>
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </section>
+      </footer>
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="js/script.js"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <!-- slider -->
+      <script>
+         $(document).ready(function () {
+           // Initialize the carousel
+           $('#mainSlider').carousel({
+             interval: 2000, // 5 seconds between slides
+             ride: 'carousel',
+             pause: 'hover', // Pause on hover
+           });
+         });
+         
+         
+      </script>
+      <!-- Slider-->
+      <!-- Custom Script to Toggle Mobile Menu -->
+      <script>
+         // Function to toggle the mobile menu (sliding effect)
+         function toggleMenu() {
+           const menu = document.getElementById('mobileMenu');
+           const backdrop = document.getElementById('mobileBackdrop');
+           menu.classList.toggle('open');
+           backdrop.classList.toggle('open');
+           document.body.style.overflow = menu.classList.contains('open') ? 'hidden' : 'auto';
+         }
+         
+         // Function to close the mobile menu when clicking on backdrop
+         function closeMenu() {
+           const menu = document.getElementById('mobileMenu');
+           const backdrop = document.getElementById('mobileBackdrop');
+           menu.classList.remove('open');
+           backdrop.classList.remove('open');
+           document.body.style.overflow = 'auto'; // Restore body scroll
+         }
+      </script>
+      <!-- menu -->
+
+      <!-- Read More-->
+      <script>
+         function toggleReadMore(link) {
+           const content = link.previousElementSibling; // Get the sibling span with text
+         
+           // Check if the content is already expanded
+           if (content.classList.contains('expanded')) {
+             content.classList.remove('expanded');
+             link.textContent = 'Read More'; // Update link text
+           } else {
+             content.classList.add('expanded');
+             link.textContent = 'Read Less'; // Update link text
+           }
+         }
+      </script>
+      <!-- Read More-->
+      <!-- box-carousal -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script>
+         const swiper = new Swiper('.swiper', {
+           slidesPerView: 4, // Show 3 items at a time
+           spaceBetween:10, // Spacing between slides
+           loop: true, // Enable looping
+           navigation: {
+             nextEl: '.second-carousel-nav',
+             prevEl: '.swiper-button-prev',
+           },
+           mousewheel: {
+             forceToAxis: true, // Allow horizontal scrolling with mouse
+           },
+           grabCursor: true, // Make the cursor draggable
+         });
+      </script>
+      <!-- box-carousal -->
+      <!-- search -->
+      <script>
+         // Get elements
+         const searchIcon = document.querySelector(".search-icon");
+         const searchOverlay = document.getElementById("searchOverlay");
+         const closeSearch = document.getElementById("closeSearch");
+         
+         // Show the search overlay when clicking the search icon
+         searchIcon.addEventListener("click", () => {
+             searchOverlay.classList.add("visible");
+         });
+         
+         // Hide the search overlay when clicking the close button
+         closeSearch.addEventListener("click", () => {
+             searchOverlay.classList.remove("visible");
+         });
+         
+         // Hide the search overlay when clicking outside the search bar
+         searchOverlay.addEventListener("click", (e) => {
+             if (e.target === searchOverlay) {
+                 searchOverlay.classList.remove("visible");
+             }
+         });
+      </script>
+      <!-- search -->
+
+
+
+  <!-- holiday script     -->
+  <script>
+  const track = document.getElementById("carouselTrack");
+  const slide = document.querySelector(".holiday-slide");
+  const slideGap = 15; // as defined in CSS
+  let currentPosition = 0;
+
+  function moveCarousel(direction) {
+    const slideWidth = slide.offsetWidth + slideGap;
+    const visibleArea = track.parentElement.offsetWidth;
+    const totalSlides = track.children.length;
+    const maxScroll = (slideWidth * totalSlides) - visibleArea;
+
+    currentPosition += direction * slideWidth;
+
+    if (currentPosition < 0) currentPosition = 0;
+    if (currentPosition > maxScroll) currentPosition = maxScroll;
+
+    track.style.transform = `translateX(-${currentPosition}px)`;
+  }
+
+  window.addEventListener("resize", () => {
+    moveCarousel(0); // Adjust on resize
+  });
+</script>
+
+
+<!-- offer script -->
+
+ <script>
+    const secondCarouselTrack = document.getElementById("secondCarouselTrack");
+    const secondCard = document.querySelector(".second-carousel-card");
+    const cardGap = 20;
+    let secondPosition = 0;
+
+    function moveSecondCarousel(dir) {
+      const cardWidth = secondCard.offsetWidth + cardGap;
+      const containerWidth = secondCarouselTrack.parentElement.offsetWidth;
+      const totalCards = secondCarouselTrack.children.length;
+      const maxScroll = (cardWidth * totalCards) - containerWidth;
+
+      secondPosition += dir * cardWidth;
+      if (secondPosition < 0) secondPosition = 0;
+      if (secondPosition > maxScroll) secondPosition = maxScroll;
+
+      secondCarouselTrack.style.transform = `translateX(-${secondPosition}px)`;
+    }
+
+    window.addEventListener("resize", () => moveSecondCarousel(0));
+  </script>
+
+
+
+<!-- fAQ -->
+ 
+<script>
+  const faqs = document.querySelectorAll(".faq-item");
+
+  faqs.forEach((item) => {
+    const btn = item.querySelector(".faq-question");
+    btn.addEventListener("click", () => {
+      item.classList.toggle("active");
+    });
+  });
+</script>
+
+
+
+<script>
+  document.querySelector('.toggle-icon').addEventListener('click', function() {
+    document.querySelector('.flight-boxes').classList.toggle('hidden');
+    this.classList.toggle('fa-chevron-down');
+    this.classList.toggle('fa-chevron-up');
+  });
+</script>
+
+<style>
+  .hidden {
+    display: none;
+  }
+</style>
+
+
+
+
+
+
+<!-- itinerary -->
+<script>
+  function toggleItinerary(header) {
+    const icon = header.querySelector('.toggle-icon');
+    const content = header.nextElementSibling;
+
+    icon.classList.toggle('rotate');
+    content.style.display = content.style.display === 'none' ? 'block' : 'none';
+  }
+
+  // Set initial state if you want it collapsed
+  document.querySelector('.itinerary-content').style.display = 'block';
+</script>
+
+
+   </body>
+</html>
